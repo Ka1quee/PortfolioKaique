@@ -2,7 +2,7 @@
 import { useRef } from 'react'
 import './CardProject.css'
 
-export default function CardProject({ projectImg, projectName }) {
+export default function CardProject({ projectImg, projectName, date }) {
 
 
     const info = useRef()
@@ -26,7 +26,7 @@ export default function CardProject({ projectImg, projectName }) {
             <h3 className='project-name'>{projectName}</h3>
 
             <div className='project-info' ref={info}>
-                <span className='date'>29 de Agosto de 2024</span>
+                <span className='date'>{date}</span>
                 <button className="btn-more">
                     Saiba mais
                 </button>

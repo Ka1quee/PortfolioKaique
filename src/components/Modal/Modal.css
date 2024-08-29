@@ -1,0 +1,22 @@
+/* .modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(70, 70, 70, 0.454);
+    
+} */
+
+.modal-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 70%;
+    height: 40%;
+    background-color: var(--card);
+}
