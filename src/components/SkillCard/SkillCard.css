@@ -1,0 +1,20 @@
+
+.skill-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: var(--card);
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.skill-card:hover{
+    transform: translateY(-5px);
+}
+
+.skill-img{
+    height: 80px;
+}

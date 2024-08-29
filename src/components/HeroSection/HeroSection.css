@@ -1,0 +1,101 @@
+.container-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #fff;
+}
+
+.function {
+    display: flex;
+    align-items: last baseline;
+    gap: 10px;
+}
+
+.function h2 {
+    font-weight: 500;
+}
+
+.detail {
+    height: 30px;
+    width: 10px;
+    border-radius: 100px;
+    background-color: var(--text-color);
+}
+
+.title {
+    color: var(--text-color);
+    font-size: 4rem;
+}
+
+/* Descrição */
+
+.description {
+    width: 80%;
+    color: var(--text-light);
+}
+
+/* Botões */
+
+.container-btns {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 45px;
+    background-color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s all;
+    color: #fff;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    background-color: var(--btn-hover);
+}
+
+#btn-secondary {
+    background-color: transparent;
+    border: .2px solid #ffffff69;
+}
+
+/* Icones */
+
+.more-info {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+.icons {
+    display: flex;
+    gap: 7px;
+}
+
+.icon {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    transition: 0.5s all;
+}
+
+.icon:hover {
+    transform: translateY(-2px);
+}
+
+/* Imagem */
+
+.hero-img {
+    height: 500px;
+}

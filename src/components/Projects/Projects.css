@@ -1,0 +1,23 @@
+
+.title-projects {
+    color: var(--text-light);
+    font-size: 4rem;
+    text-align: center;
+}
+
+.highlights {
+    color: var(--text-light);
+}
+
+.title-category {
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 50px 0px 20px 0px;
+}
+
+.container-projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+

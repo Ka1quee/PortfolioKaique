@@ -1,0 +1,37 @@
+.container-skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.skills {
+    background-color: var(--background-light);
+}
+
+.container-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 50%;
+}
+
+.skill-title {
+    color: var(--text-light);
+    font-size: 4rem;
+}
+
+.skill-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.desc {
+    color: var(--text-light);
+    width: 600px;
+}
+
+.emphasis{
+    color: var(--text-color);
+    
+}

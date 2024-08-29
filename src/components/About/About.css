@@ -1,0 +1,23 @@
+.about {
+    background-color: var(--background-light);
+}
+
+/* Sobre mim */
+
+.container-about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img-kaique {
+    height: 350px;
+}
+
+.title {
+    color: var(--text-light);
+}
+
+.about-text{
+    width: 50%;
+}

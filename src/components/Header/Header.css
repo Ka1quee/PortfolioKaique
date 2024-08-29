@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    height: 80px;
+    border-bottom: 0.1px solid grey;
+}
+
+.name-logo{
+    font-size: 2rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+
+
+.nav-list{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.nav-item a{
+    transition: 0.5s all;
+    color: var(--text-light);
+}
+
+.nav-item a:hover{
+    color: var(--text-color);
+}
