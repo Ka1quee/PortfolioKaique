@@ -3,12 +3,31 @@
         {
             "id": 1,
             "title": "Pechincha",
-            "date": "03 de Agosto de 2024"
+            "date": "03 de Agosto de 2024",
+            "description": "Descrição detalhada do projeto Pechincha...",
+            "videoUrl": "url_do_video.mp4",
+            "repoUrl": "https://github.com/usuario/repositorio",
+            "projectUrl": "https://linkdoproyecto.com"
         },
         {
             "id": 2,
             "title": "Sul Solidário",
-            "date": "03 de Março de 2024"
+            "date": "29 de Maio de 2024",
+            "description": "Diante das recorrentes enchentes no Rio Grande do Sul, nós, da equipe 1 do Instituto Proa e Senac Lapa Tito, junto com a Professora Débora Paixão, criamos a plataforma web Sul Solidário. Nossa missão é conscientizar e ajudar os desabrigados por esse desastre.",
+            "videoUrl": "url_do_video_sul.mp4",
+            "repoUrl": "https://github.com/Ka1quee/SulSolidario",
+            "projectUrl": "https://www.sulidario.com.br/"
+        },
+
+        {
+            "id": 2,
+            "title": "Sul Solidário",
+            "date": "29 de Maio de 2024",
+            "description": "Diante das recorrentes enchentes no Rio Grande do Sul, nós, da equipe 1 do Instituto Proa e Senac Lapa Tito, junto com a Professora Débora Paixão, criamos a plataforma web Sul Solidário. Nossa missão é conscientizar e ajudar os desabrigados por esse desastre.",
+            "videoUrl": "url_do_video_sul.mp4",
+            "repoUrl": "https://github.com/Ka1quee/SulSolidario",
+            "projectUrl": "https://www.sulidario.com.br/"
         }
+        
     ]
 }

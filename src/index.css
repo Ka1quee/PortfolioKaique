@@ -6,6 +6,8 @@
   box-sizing: border-box;
   font-family: Poppins;
   text-decoration: none;
+  scrollbar-width: thin;
+  scrollbar-color: var(--text-color) #a4232300;    
 }
 
 :root {

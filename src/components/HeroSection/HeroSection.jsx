@@ -1,6 +1,7 @@
 import './HeroSection.css'
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaCloudDownloadAlt } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
+import { BsFillTelephoneFill } from "react-icons/bs";
 import img from '../../assets/img/Programming-rafiki.svg'
 
 export default function HeroSection() {
@@ -11,7 +12,7 @@ export default function HeroSection() {
                 <div className="infos">
                     <div className="function">
                         <div className="detail"></div>
-                        <h2>Desenolvedor Full Stack</h2>
+                        <h2>Desenvolvedor Web</h2>
                     </div>
 
                     <h1 className='title'>Kaique Oliveira</h1>
@@ -23,8 +24,10 @@ export default function HeroSection() {
                     </div>
 
                     <div className="container-btns">
-                        <button className='btn'>Baixar CV</button>
-                        <button className='btn' id='btn-secondary'>Contatos</button>
+                        <button className='btn'><FaCloudDownloadAlt className='btn-icon' />
+                        Baixar CV</button>
+                        <button className='btn' id='btn-secondary'><BsFillTelephoneFill />
+                         Contatos</button>
                     </div>
 
                     <div className="more-info">
