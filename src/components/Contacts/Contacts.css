@@ -37,13 +37,3 @@
 .desc-contact{
     font-weight: 200;
 }
-
-@media screen and (max-width: 1064px) {
-
-.container-contacts{
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-justify-content: left;}
-}
-
-

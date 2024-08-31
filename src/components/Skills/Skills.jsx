@@ -11,6 +11,7 @@ import sass from '../../assets/img/skills/sass.svg'
 import sqlserver from '../../assets/img/skills/sqlserver.svg'
 import mysql from '../../assets/img/skills/mysql.svg'
 import aws from '../../assets/img/skills/aws.svg'
+import figma from '../../assets/img/skills/figma.svg'
 
 
 import SkillCard from '../SkillCard/SkillCard'
@@ -50,7 +51,7 @@ export default function Skills() {
                         img={css} />
 
                     <SkillCard
-                        mouseOver={() => mouseOver('JavaScrip é uma linguagem de programação que permite adicionar interatividade às páginas web, como animações, manipulação de eventos, validação de formulários, e muito mais.', name = 'Java Script')}
+                        mouseOver={() => mouseOver('JavaScript é uma linguagem de programação que permite adicionar interatividade às páginas web, como animações, manipulação de eventos, validação de formulários, e muito mais.', name = 'Java Script')}
                         mouseLeave={mouseLeave}
                         img={js} />
 
@@ -65,7 +66,7 @@ export default function Skills() {
                         img={git} />
 
                     <SkillCard
-                        mouseOver={() => mouseOver('O Sass (Syntactically Awesome Style Sheets) é uma linguagem de extensão do CSS que adiciona recursos poderosos, como variáveis, aninhamento, mixins e funções, permitindo escrever estilos de forma mais organizada e eficiente. Ele é pré-processado, o que significa que o código Sass é compilado em CSS antes de ser aplicado ao seu site. Isso facilita a manutenção e reutilização do código em projetos maiores.', name = 'Sass')}
+                        mouseOver={() => mouseOver('O Sass (Syntactically Awesome Style Sheets) é uma linguagem de extensão do CSS que adiciona recursos poderosos, como variáveis, aninhamento, mixins e funções, permitindo escrever estilos de forma mais organizada e eficiente. Ele é pré-processado, o que significa que o código Sass é compilado em CSS antes de ser aplicado ao seu site. Isso facilita a manutenção e reutilização do código em projetos maiores.', name = 'SASS1')}
                         mouseLeave={mouseLeave}
                         img={sass} />
 
@@ -95,6 +96,11 @@ export default function Skills() {
                         mouseOver={() => mouseOver('Java é uma linguagem de programação orientada a objetos, conhecida por sua portabilidade, permitindo que o mesmo código rode em diferentes plataformas. É amplamente usada para desenvolver aplicações web, desktop, móveis e sistemas corporativos.', name = 'Java')}
                         mouseLeave={mouseLeave}
                         img={java} />
+
+                    <SkillCard
+                        mouseOver={() => mouseOver('Figma é uma ferramenta de design colaborativo baseada na web, usada para criar interfaces de usuário, protótipos e designs gráficos. Permite a colaboração em tempo real entre equipes e oferece recursos como design vetorial, prototipagem interativa e integração com outras ferramentas de design.', name = 'Figma')}
+                        mouseLeave={mouseLeave}
+                        img={figma} />
                 </div>
             </div>
         </section>
