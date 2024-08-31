@@ -1,14 +1,8 @@
 {
-    "builds": [
-      {
-        "src": "public/videos/*",
-        "use": "@vercel/static"
-      }
-    ],
     "routes": [
       {
         "src": "/videos/(.*)",
-        "dest": "/videos/$1"
+        "dest": "/public/videos/$1"
       }
     ]
   }
