@@ -16,9 +16,9 @@ export default function Modal({ isOpen, onClose, title, description, videoUrl, r
                 <div className="project-preview">
                     <div className="project-video">
 
-                        {videoUrl && <video src={videoUrl} controls />}
+                        {videoUrl && <video src={videoUrl} controls autoPlay loop />}
                     </div>
-                    <div className="container-btns">
+                    <div className="container-btns" id='btns-modal'>
                         {projectUrl && <button className="btn" onClick={() => window.open(projectUrl, '_blank')}> <FaEye className='btn-icon' />Acessar projeto</button>}
                         {repoUrl && <button className="btn" onClick={() => window.open(repoUrl, '_blank')}>  <FaGithub className='btn-icon' />Acessar Repositório</button>}
                     </div>
@@ -28,7 +28,7 @@ export default function Modal({ isOpen, onClose, title, description, videoUrl, r
                     <h2 className="title-project">{title}</h2>
                     <strong className='datee'>{date}</strong>
                     <div className="project-desc">
-                        <p className='description'>{description}</p>
+                        <p className='description' id='description-modal'>{description}</p>
                     </div>
                 </div>
             </div>

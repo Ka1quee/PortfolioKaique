@@ -7,8 +7,8 @@ import img from '../../assets/img/Programming-rafiki.svg'
 export default function HeroSection() {
 
     return (
-        <section className="hero" id='container'>
-            <div className="container-hero" data-aos="fade-down">
+        <section className="hero" id='hero'>
+            <div className="container-hero" data-aos="fade-down" id='container'>
                 <div className="infos">
                     <div className="function">
                         <div className="detail"></div>

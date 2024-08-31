@@ -23,8 +23,8 @@ export default function Skills() {
     }
 
     return (
-        <section className='skills'>
-            <div className="container-skills" id='container'>
+        <section className='skills' id='skills'>
+            <div className="container-skills" id='container' data-aos="fade-down">
                 <div className="skill-desc">
                     <h2 className="title">{skillName}</h2>
                     <p className='desc'>{skillDesc}</p>

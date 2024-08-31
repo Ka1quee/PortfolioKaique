@@ -17,16 +17,16 @@ export default function Projects() {
     };
 
     return (
-        <section className='projects'>
-            <div id='container'>
+        <section className='projects' id='projects'>
+            <div id='container' data-aos="fade-down">
                 <h2 className="title-projects">Projetos</h2>
-                <div className="highlights">
+                <div className="highlights" >
                     <h3 className='title-category'>Destaques</h3>
-                    <div className="container-projects">
-                        {data.projects.map((project, index) => (
+                    <div className="container-projects" >
+                        {data.highlights.map((project, index) => (
                             <CardProject 
                                 key={index}
-                                projectImg={sulSolidario}
+                                projectImg={project.projectImg}
                                 projectName={project.title}
                                 date={project.date}
                                 onMoreInfo={() => openModal(project)} // Passa a função para abrir o modal
@@ -39,7 +39,7 @@ export default function Projects() {
 
                 <div className="highlights">
                     <h3 className='title-category'>Todos os projetos</h3>
-                    <div className="container-projects">
+                    <div className="container-projects" >
                         {data.projects.map((project, index) => (
                             <CardProject 
                                 key={index}

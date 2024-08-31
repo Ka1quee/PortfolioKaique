@@ -11,8 +11,7 @@ import Projects from './components/Projects/Projects';
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 2000, // Duração das animações em milissegundos
-      once: true, // As animações ocorrem apenas uma vez
+      duration: 1000 // Duração das animações em milissegundos
     });
   }, []);
 

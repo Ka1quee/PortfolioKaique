@@ -5,8 +5,8 @@ export default function About() {
 
   
     return (
-        <section className='about'>
-            <div className="container-about" id='container'>
+        <section className='about' id='about'>
+            <div className="container-about" id='container' data-aos="fade-down">
                 <div className="container-img">
                     <img src={kaiqueImg} alt="Imagem de Kaique Oliveira" className='img-kaique' />
                 </div>
