@@ -1,0 +1,17 @@
+.footer{
+    text-align: center;
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.footer-text{
+    color: var(--text-light);
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1064px) {
+
+    .footer-text{
+        font-size: 1rem;
+    }
+}

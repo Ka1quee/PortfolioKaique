@@ -76,7 +76,7 @@
         right: 10px;
         width: 250px;
        margin-top: 85px;
-        background-color: var(--background-light);
+        background-color: var(--card);
         z-index: 3;
         border-radius: 20px;
     }
@@ -89,7 +89,8 @@
     }
 
     .nav-item:hover{
-        background-color: #1b1b1b;
+        background-color: rgb(37, 41, 43);
+        
     }
 
     .name-logo{

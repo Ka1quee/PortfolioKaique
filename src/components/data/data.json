@@ -1,22 +1,26 @@
 {
     "highlights": [
         {
-            "id": 1,
             "title": "Pechincha",
             "date": "03 de Julho de 2024",
             "description": "Atuando como desenvolvedor Front-End e UI/UX, minha equipe e eu criamos a Pechincha, uma plataforma que evita o desperdício de alimentos, oferecendo menores preços aos consumidores e um sistema de gerenciamento para os mercados assinantes.",
             "projectImg": "https://media.licdn.com/dms/image/v2/D4D2DAQGoSmwnfeu-eQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1722482032107?e=1725667200&v=beta&t=tF2sOy3AUKcZ64eY_YwwkLlzQcipov5fiVNRaSWnIik",
-            "videoUrl": "/videos/pechincha.mp4",
+            "videoUrl": "/videos/Pechincha.mp4",
+            "tech1": "React, JavaScript",
+            "tech2": "MySQL",
+            "tech3": "Spring Boot",
             "repoUrl": "https://github.com/Ka1quee/PechinchaFrontEnd",
             "projectUrl": "https://ospechincha.com.br"
         },
         {
-            "id": 2,
             "title": "Sul Solidário",
             "date": "29 de Maio de 2024",
             "description": "Diante das recorrentes enchentes no Rio Grande do Sul, nós, da equipe 1 do Instituto Proa e Senac Lapa Tito, junto com a Professora Débora Paixão, criamos a plataforma web Sul Solidário. Nossa missão é conscientizar e ajudar os desabrigados por esse desastre.",
             "projectImg": "https://media.licdn.com/dms/image/v2/D4D2DAQFosXDvr0MBXA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1722481625796?e=1725667200&v=beta&t=OO7NriUls2v2bDYTzG19n6rQttd8OkqnsNq7PF-52Vs",
-            "videoUrl": "/videos/SulSolidario.mp4",
+            "tech1": "HTML, CSS",
+            "tech2": "React",
+            "tech3": "Java Script",
+            "videoUrl": "/videos/Sulsolidario.mp4",
             "repoUrl": "https://github.com/Ka1quee/SulSolidario",
             "projectUrl": "https://www.sulidario.com.br/"
         },
@@ -25,16 +29,22 @@
             "date": "14 de Março de 2024",
             "description": "Replicando a página inicial do youtube apenas com o conhecimento que tenho.",
             "projectImg": "https://github.com/Ka1quee/Youtube-Clone/blob/main/img/layoutWeb.JPG?raw=true",
-            "videoUrl": "/videos/youtubeClone.mp4",
+            "tech1": "HTML",
+            "tech2": "CSS",
+            "tech3": "Java Script",
+            "videoUrl": "/videos/Youtubeclone.mp4",
             "repoUrl": "https://github.com/Ka1quee/Youtube-Clone",
             "projectUrl": "https://ka1quee.github.io/Youtube-Clone/"
         },
         {
             "title": "TopCine",
             "date": "29 de Março de 2024",
-            "description": "TopCine é um projeto desenvolvido em equipe que tem como objetivo recomendar filmes sobre assuntos específicos e apresentar todas as informações necessárias para que o usuário saiba onde está disponível, assistir ao trailer, saber a avaliação, elenco, entre outras informações.",
+            "description": "Topcine é um projeto desenvolvido em equipe que tem como objetivo recomendar filmes sobre assuntos específicos e apresentar todas as informações necessárias para que o usuário saiba onde está disponível, assistir ao trailer, saber a avaliação, elenco, entre outras informações.",
             "projectImg": "https://github.com/mathmorgado/Projetos/blob/main/PROA/TopCine-UC1/components/images/preview/filmes-list.png?raw=true",
-            "videoUrl": "/videos/topCine.mp4",
+            "tech1": "HTML",
+            "tech2": "CSS",
+            "tech3": "Java Script",
+            "videoUrl": "/videos/Topcine.mp4",
             "repoUrl": "https://github.com/Ka1quee/TopCine",
             "projectUrl": "https://ka1quee.github.io/TopCine/"
         },
@@ -43,52 +53,101 @@
             "date": "29 de Agosto de 2024",
             "description": "Movies App é um projeto que consome dados de uma API de filmes, trazendo diversas informações dos últimos lançamentos.",
             "projectImg": "https://camo.githubusercontent.com/c66bc817b5a7bfb69ca235c7031379bdf6f498c37145ba3d577d41ee4fd5a0be/68747470733a2f2f692e696d6775722e636f6d2f7163563338566d2e706e67",
-            "videoUrl": "/videos/moviesApp.mp4",
-            "repoUrl": "https://github.com/Ka1quee/SulSolidario",
-            "projectUrl": "https://www.sulidario.com.br/"
+            "tech1": "React, Java Script",
+            "tech2": "HTML, SASS",
+            "tech3": "API",
+            "videoUrl": "/videos/Moviesapp.mp4",
+            "repoUrl": "https://github.com/Ka1quee/MoviesApp",
+            "projectUrl": "https://movies-app-rose.vercel.app/"
         },
         {
             "title": "Praiagens",
             "date": "11 de Abril de 2024",
             "description": "Seja bem-vindo ao Praiagens, o seu guia definitivo para explorar as mais belas praias do Brasil! Aqui você encontrará tudo o que precisa para planejar sua próxima escapada para o paraíso.",
             "projectImg": "https://i.imgur.com/5ebqfVh.png",
-            "videoUrl": "/videos/praiagens.mp4",
+            "tech1": "HTML",
+            "tech2": "CSS",
+            "tech3": "Java Script",
+            "videoUrl": "/videos/Praiagens.mp4",
             "repoUrl": "https://github.com/Ka1quee/Praiagens",
             "projectUrl": "https://praiagens-ovij.vercel.app/"
         }
     ],
     "projects": [
         {
-            "title": "Todos projetos teste",
-            "date": "29 de Maio de 2024",
-            "description": "Diante das recorrentes enchentes no Rio Grande do Sul, nós, da equipe 1 do Instituto Proa e Senac Lapa Tito, junto com a Professora Débora Paixão, criamos a plataforma web Sul Solidário. Nossa missão é conscientizar e ajudar os desabrigados por esse desastre.",
-            "videoUrl": "url_do_video_sul.mp4",
-            "repoUrl": "https://github.com/Ka1quee/SulSolidario",
+            "title": "CRUD Full Stack",
+            "date": "01 de Agosto de 2024",
+            "description": "CRUD Full Stack de um cadastro de usuários, onde o backend foi desenvolvido em node, frontend em React.JS e banco de dados com MySQL.",
+            "videoUrl": "/videos/crud.mp4",
+            "projectImg": "https://camo.githubusercontent.com/146e3bebb765e3ca7f58820fff1db6985f482876b7f74bf53eb90c3a76e82daa/68747470733a2f2f692e696d6775722e636f6d2f463441345243482e706e67",
+            "tech1": "React, Java Script",
+            "tech2": "Node",
+            "tech3": "MySQL",
+            "repoUrl": "https://github.com/Ka1quee/CRUD-React?tab=readme-ov-file",
             "projectUrl": "https://www.sulidario.com.br/"
         },
+
         {
-            "title": "Todos projetos teste",
-            "date": "29 de Maio de 2024",
-            "description": "Diante das recorrentes enchentes no Rio Grande do Sul, nós, da equipe 1 do Instituto Proa e Senac Lapa Tito, junto com a Professora Débora Paixão, criamos a plataforma web Sul Solidário. Nossa missão é conscientizar e ajudar os desabrigados por esse desastre.",
-            "videoUrl": "url_do_video_sul.mp4",
-            "repoUrl": "https://github.com/Ka1quee/SulSolidario",
-            "projectUrl": "https://www.sulidario.com.br/"
+            "title": "Número secreto",
+            "date": "19 de Janeiro de 2023",
+            "description": "Um projeto bem simples que gera um número aleatório e faz com que o usuário precise falar utilizando microfone até chegar no número correto.",
+            "videoUrl": "/videos/Numerosecreto.mp4",
+            "tech1": "HTML",
+            "tech2": "CSS",
+            "tech3": "Java Script",
+            "projectImg": "https://i.imgur.com/YTYUUZt.png",
+            "repoUrl": "https://github.com/Ka1quee/jogo-numero-secreto",
+            "projectUrl": "https://jogo-numero-secreto-ruddy.vercel.app/"
+        },
+
+        {
+            "title": "Teclado Musical",
+            "date": "06 de Fevereiro de 2023",
+            "description": "Se trata de um teclado musical bem simples que pode ser tocado com o cursor do mouse. Foi um projeto muito bom pra recapitular alguns conceitos básicos do HTML e principalmente do CSS e JavaScript. Espero que gostem!",
+            "videoUrl": "/videos/Tecladomusical.mp4",
+            "projectImg": "https://i.imgur.com/bbEkdWo.png",
+            "tech1": "HTML",
+            "tech2": "CSS",
+            "tech3": "Java Script",
+            "repoUrl": "https://github.com/Ka1quee/Teclado-Musical",
+            "projectUrl": "https://ka1quee.github.io/Teclado-Musical/"
+        },
+        
+        {
+            "title": "FreeWay",
+            "date": "12 de Dezembro de 2022",
+            "description": "Esse pequeno projeto se trata de um jogo completamente baseado no FreeWay lançado lá nos anos 80, tem uma lógica bem simples então foi bem rápido pra fazer.",
+            "videoUrl": "/videos/freeWay.mp4",
+            "projectImg": "https://i.imgur.com/Axl7iGi.png",
+            "tech1": "HTML",
+            "tech2": "CSS",
+            "tech3": "Java Script",
+            "repoUrl": "https://github.com/Ka1quee/FreeWay",
+            "projectUrl": "https://ka1quee.github.io/FreeWay/"
         },
         {
-            "title": "Todos projetos teste",
-            "date": "29 de Maio de 2024",
-            "description": "Diante das recorrentes enchentes no Rio Grande do Sul, nós, da equipe 1 do Instituto Proa e Senac Lapa Tito, junto com a Professora Débora Paixão, criamos a plataforma web Sul Solidário. Nossa missão é conscientizar e ajudar os desabrigados por esse desastre.",
-            "videoUrl": "url_do_video_sul.mp4",
-            "repoUrl": "https://github.com/Ka1quee/SulSolidario",
-            "projectUrl": "https://www.sulidario.com.br/"
+            "title": "Sistema Nutrição",
+            "date": "21 de Dezembro de 2022",
+            "description": "Esse pequeno projeto se trata de um jogo completamente baseado no FreeWay lançado lá nos anos 80, tem uma lógica bem simples então foi bem rápido pra fazer.",
+            "videoUrl": "/videos/Sistemanutricao.mp4",
+            "projectImg": "https://i.imgur.com/XDAKOwY.png",
+            "tech1": "HTML",
+            "tech2": "CSS",
+            "tech3": "Java Script",
+            "repoUrl": "https://github.com/Ka1quee/Sistema-Nutricao",
+            "projectUrl": "https://ka1quee.github.io/Sistema-Nutricao/"
         },
         {
-            "title": "Todos projetos teste",
-            "date": "29 de Maio de 2024",
-            "description": "Diante das recorrentes enchentes no Rio Grande do Sul, nós, da equipe 1 do Instituto Proa e Senac Lapa Tito, junto com a Professora Débora Paixão, criamos a plataforma web Sul Solidário. Nossa missão é conscientizar e ajudar os desabrigados por esse desastre.",
-            "videoUrl": "url_do_video_sul.mp4",
-            "repoUrl": "https://github.com/Ka1quee/SulSolidario",
-            "projectUrl": "https://www.sulidario.com.br/"
+            "title": "Mochila de Viagem",
+            "date": "19 de Dezembro de 2022",
+            "description": "Mochila de viagem é um peuqneo projeto que tem como objetivo adicionar itens que ficam aramazenados no local storage do navegador, podendo atualizar sem perder os dados adicionados.",
+            "videoUrl": "/videos/Mochilaviagem.mp4",
+            "projectImg": "https://i.imgur.com/1uWlkc6.png",
+            "tech1": "HTML",
+            "tech2": "CSS",
+            "tech3": "Java Script",
+            "repoUrl": "https://github.com/Ka1quee/Mochila-de-Viagem-LocalStorage",
+            "projectUrl": "https://ka1quee.github.io/Mochila-de-Viagem-LocalStorage/"
         }
     ]
 }

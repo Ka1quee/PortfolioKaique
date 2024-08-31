@@ -5,6 +5,14 @@ import css from '../../assets/img/skills/css.svg'
 import js from '../../assets/img/skills/js.svg'
 import git from '../../assets/img/skills/git.svg'
 import react from '../../assets/img/skills/react.svg'
+import typescript from '../../assets/img/skills/typescript.svg'
+import java from '../../assets/img/skills/java.svg'
+import sass from '../../assets/img/skills/sass.svg'
+import sqlserver from '../../assets/img/skills/sqlserver.svg'
+import mysql from '../../assets/img/skills/mysql.svg'
+import aws from '../../assets/img/skills/aws.svg'
+
+
 import SkillCard from '../SkillCard/SkillCard'
 import { useState } from 'react'
 
@@ -18,7 +26,7 @@ export default function Skills() {
     }
 
     function mouseLeave() {
-        setSkillDesc('* passe o cursor do mouse no card para ler *');   
+        setSkillDesc('* passe o cursor do mouse no card para ler *');
         setSkillName('Minhas Skills')
     }
 
@@ -52,9 +60,41 @@ export default function Skills() {
                         img={react} />
 
                     <SkillCard
-                        mouseOver={() => mouseOver('Git é um sistema de controle de versão que permite rastrear alterações em arquivos e colaborar com outras pessoas no desenvolvimento de projetos de software de forma organizada e segura.', name = 'Git')}
+                        mouseOver={() => mouseOver('Git é um sistema de controle de versão que permite rastrear alterações em arquivos e colaborar com outras pessoas no desenvolvimento de projetos de software de forma organizada e segura.', name = 'Git e Git Hub')}
                         mouseLeave={mouseLeave}
                         img={git} />
+
+                    <SkillCard
+                        mouseOver={() => mouseOver('O Sass (Syntactically Awesome Style Sheets) é uma linguagem de extensão do CSS que adiciona recursos poderosos, como variáveis, aninhamento, mixins e funções, permitindo escrever estilos de forma mais organizada e eficiente. Ele é pré-processado, o que significa que o código Sass é compilado em CSS antes de ser aplicado ao seu site. Isso facilita a manutenção e reutilização do código em projetos maiores.', name = 'Sass')}
+                        mouseLeave={mouseLeave}
+                        img={sass} />
+
+                    <SkillCard
+                        mouseOver={() => mouseOver('TypeScript é uma linguagem que adiciona tipos ao JavaScript, ajudando a prevenir erros e melhorar a manutenção do código. Ela é compilada para JavaScript e oferece recursos como interfaces e classes.', name = 'Type Script')}
+                        mouseLeave={mouseLeave}
+                        img={typescript} />
+
+
+                    <SkillCard
+                        mouseOver={() => mouseOver('AWS (Amazon Web Services) é uma plataforma de serviços em nuvem da Amazon que oferece infraestrutura, armazenamento, banco de dados, e ferramentas de desenvolvimento escaláveis e seguras para criar e gerenciar aplicações na nuvem.', name = 'AWS')}
+                        mouseLeave={mouseLeave}
+                        img={aws} />
+
+                    <SkillCard
+                        mouseOver={() => mouseOver('SQL Server é um sistema de gerenciamento de banco de dados relacional desenvolvido pela Microsoft. Ele armazena e gerencia dados, permitindo consultas e manipulação de informações usando SQL (Structured Query Language).', name = 'SQL Server')}
+                        mouseLeave={mouseLeave}
+                        img={sqlserver} />
+
+                    <SkillCard
+                        mouseOver={() => mouseOver('MySQL é um sistema de gerenciamento de banco de dados relacional de código aberto. Ele usa SQL para acessar e gerenciar dados e é amplamente utilizado em aplicações web para armazenar e recuperar informações de maneira eficiente.', name = 'MySQL')}
+                        mouseLeave={mouseLeave}
+                        img={mysql} />
+
+
+                    <SkillCard
+                        mouseOver={() => mouseOver('Java é uma linguagem de programação orientada a objetos, conhecida por sua portabilidade, permitindo que o mesmo código rode em diferentes plataformas. É amplamente usada para desenvolver aplicações web, desktop, móveis e sistemas corporativos.', name = 'Java')}
+                        mouseLeave={mouseLeave}
+                        img={java} />
                 </div>
             </div>
         </section>

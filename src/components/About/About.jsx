@@ -3,13 +3,15 @@ import kaiqueImg from '../../assets/img/kaique.svg'
 
 export default function About() {
 
-  
+
     return (
         <section className='about' id='about'>
             <div className="container-about" id='container' data-aos="fade-down">
-                <div className="container-img">
-                    <img src={kaiqueImg} alt="Imagem de Kaique Oliveira" className='img-kaique' />
-                </div>
+                <a href="https://www.linkedin.com/in/kaique--oliveira/" target='_blank'>
+                    <div className="container-img">
+                        <img src={kaiqueImg} alt="Imagem de Kaique Oliveira" className='img-kaique' />
+                    </div>
+                </a>
 
                 <article className="about-text">
                     <h2 className='title'>Sobre mim</h2>

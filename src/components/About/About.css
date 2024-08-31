@@ -11,6 +11,14 @@
     align-items: center;
 }
 
+.container-img{
+    transition: 0.5s all;
+}
+
+.container-img:hover{
+    transform: translateY(-5px);
+}
+
 .img-kaique {
     height: 350px;
 }

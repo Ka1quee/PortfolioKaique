@@ -2,8 +2,8 @@ import './HeroSection.css'
 import { FaGithub, FaLinkedin, FaCloudDownloadAlt } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import img from '../../assets/img/Programming-rafiki.svg'
-
+import img from '../../assets/img/coding.svg'
+import curriculo from '../../assets/curriculo/curriculoKaique.pdf'
 export default function HeroSection() {
 
     return (
@@ -24,10 +24,12 @@ export default function HeroSection() {
                     </div>
 
                     <div className="container-btns">
-                        <button className='btn'><FaCloudDownloadAlt className='btn-icon' />
-                        Baixar CV</button>
-                        <button className='btn' id='btn-secondary'><BsFillTelephoneFill />
-                         Contatos</button>
+                        <a href={curriculo} download>
+                            <button className='btn'><FaCloudDownloadAlt className='btn-icon' />Baixar CV</button>
+                        </a>
+                        <a href="#contacts">
+                            <button className='btn' id='btn-secondary'><BsFillTelephoneFill />Contatos</button>
+                        </a>
                     </div>
 
                     <div className="more-info">

@@ -6,6 +6,10 @@
   
 }
 
+.hero{
+    padding-top: 80px;
+}
+
 .infos {
     display: flex;
     flex-direction: column;

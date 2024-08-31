@@ -2,8 +2,7 @@
 import './Modal.css';
 import { IoClose } from "react-icons/io5";
 import { FaGithub, FaEye } from "react-icons/fa";
-
-export default function Modal({ isOpen, onClose, title, description, videoUrl, repoUrl, projectUrl, date }) {
+export default function Modal({ isOpen, onClose, title, description, videoUrl, repoUrl, projectUrl, date, tech1, tech2, tech3 }) {
     if (!isOpen) return null;
 
     return (
@@ -19,8 +18,8 @@ export default function Modal({ isOpen, onClose, title, description, videoUrl, r
                         {videoUrl && <video src={videoUrl} controls autoPlay loop />}
                     </div>
                     <div className="container-btns" id='btns-modal'>
-                        {projectUrl && <button className="btn" onClick={() => window.open(projectUrl, '_blank')}> <FaEye className='btn-icon' />Acessar projeto</button>}
-                        {repoUrl && <button className="btn" onClick={() => window.open(repoUrl, '_blank')}>  <FaGithub className='btn-icon' />Acessar Repositório</button>}
+                        {projectUrl && <button className="btn" id='btn-modal' onClick={() => window.open(projectUrl, '_blank')}> <FaEye className='btn-icon' />Acessar projeto</button>}
+                        {repoUrl && <button className="btn" id='btn-modal' onClick={() => window.open(repoUrl, '_blank')}>  <FaGithub className='btn-icon' />Acessar Repositório</button>}
                     </div>
                 </div>
 
@@ -29,6 +28,12 @@ export default function Modal({ isOpen, onClose, title, description, videoUrl, r
                     <strong className='datee'>{date}</strong>
                     <div className="project-desc">
                         <p className='description' id='description-modal'>{description}</p>
+                        <ul className='techs'>
+                            <h3>Tecnologias utilizadas:</h3>
+                            <li>{tech1}</li>
+                            <li>{tech2}</li>
+                            <li>{tech3}</li>
+                        </ul>
                     </div>
                 </div>
             </div>

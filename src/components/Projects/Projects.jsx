@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './Projects.css';
-import sulSolidario from '../../assets/img/projects/sulSolidario.jfif';
 import CardProject from '../CardProject/CardProject';
 import Modal from '../Modal/Modal';
 import data from '../data/data.json';
@@ -43,7 +42,7 @@ export default function Projects() {
                         {data.projects.map((project, index) => (
                             <CardProject 
                                 key={index}
-                                projectImg={sulSolidario}
+                                projectImg={project.projectImg}
                                 projectName={project.title}
                                 date={project.date}
                                 onMoreInfo={() => openModal(project)} // Passa a função para abrir o modal
@@ -65,6 +64,10 @@ export default function Projects() {
                     repoUrl={selectedProject.repoUrl} 
                     projectUrl={selectedProject.projectUrl} 
                     date={selectedProject.date}
+                    tech1={selectedProject.tech1}
+                    tech2={selectedProject.tech2}
+                    tech3={selectedProject.tech3}
+
                 />
             )}
         </section>

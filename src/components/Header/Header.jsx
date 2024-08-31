@@ -9,10 +9,10 @@ export default function Header() {
 
     function showMenu() {
 
-        if (menuMobile.current.style.height == '250px') {
+        if (menuMobile.current.style.height == '320px') {
             menuMobile.current.style.height = '0px'
         } else {
-            menuMobile.current.style.height = '250px'
+            menuMobile.current.style.height = '320px'
 
         }
 
@@ -30,6 +30,7 @@ export default function Header() {
                         <li className='nav-item'><a href="#about">Sobre</a></li>
                         <li className='nav-item'><a href="#skills">Habilidades</a></li>
                         <li className='nav-item'><a href="#projects">Projetos</a></li>
+                        <li className='nav-item'><a href="#contacts">Contatos</a></li>
                     </ul>
 
                     <GiHamburgerMenu className='menu-mobile' ref={icon} onClick={showMenu} />
@@ -44,6 +45,7 @@ export default function Header() {
                         <li className='nav-item'><a href="#about">Sobre</a></li>
                         <li className='nav-item'><a href="#skills">Habilidades</a></li>
                         <li className='nav-item'><a href="#projects">Projetos</a></li>
+                        <li className='nav-item'><a href="#contacts">Contatos</a></li>
                     </ul>
                 </nav>
             </header>
