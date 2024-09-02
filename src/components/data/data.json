@@ -86,44 +86,17 @@
             "repoUrl": "https://github.com/Ka1quee/CRUD-React?tab=readme-ov-file",
             "projectUrl": "https://www.sulidario.com.br/"
         },
-
         {
-            "title": "Número secreto",
-            "date": "19 de Janeiro de 2023",
-            "description": "Um projeto bem simples que gera um número aleatório e faz com que o usuário precise falar utilizando microfone até chegar no número correto.",
-            "videoUrl": "/videos/Numerosecreto.mp4",
+            "title": "Netflix Clone",
+            "date": "14 de Março de 2024",
+            "description": "Desenvolvido em Março de 2024, esse projeto tem como objetivo reproduzir a página inicial da Netflix utilizando conceitos básicos de desenvolvimento web.",
+            "videoUrl": "/videos/Netflixclone.mp4",
+            "projectImg": "https://camo.githubusercontent.com/94857fa1fcc652a89213d61a67286d63e9579e9c6ebf20b94cccf324b96741f9/68747470733a2f2f692e696d6775722e636f6d2f506b35754244382e706e67",
             "tech1": "HTML",
             "tech2": "CSS",
-            "tech3": "Java Script",
-            "projectImg": "https://i.imgur.com/YTYUUZt.png",
-            "repoUrl": "https://github.com/Ka1quee/jogo-numero-secreto",
-            "projectUrl": "https://jogo-numero-secreto-ruddy.vercel.app/"
-        },
-
-        {
-            "title": "Teclado Musical",
-            "date": "06 de Fevereiro de 2023",
-            "description": "Se trata de um teclado musical bem simples que pode ser tocado com o cursor do mouse. Foi um projeto muito bom pra recapitular alguns conceitos básicos do HTML e principalmente do CSS e JavaScript. Espero que gostem!",
-            "videoUrl": "/videos/Tecladomusical.mp4",
-            "projectImg": "https://i.imgur.com/bbEkdWo.png",
-            "tech1": "HTML",
-            "tech2": "CSS",
-            "tech3": "Java Script",
-            "repoUrl": "https://github.com/Ka1quee/Teclado-Musical",
-            "projectUrl": "https://ka1quee.github.io/Teclado-Musical/"
-        },
-        
-        {
-            "title": "FreeWay",
-            "date": "12 de Dezembro de 2022",
-            "description": "Esse pequeno projeto se trata de um jogo completamente baseado no FreeWay lançado lá nos anos 80, tem uma lógica bem simples então foi bem rápido pra fazer.",
-            "videoUrl": "/videos/freeWay.mp4",
-            "projectImg": "https://i.imgur.com/Axl7iGi.png",
-            "tech1": "HTML",
-            "tech2": "CSS",
-            "tech3": "Java Script",
-            "repoUrl": "https://github.com/Ka1quee/FreeWay",
-            "projectUrl": "https://ka1quee.github.io/FreeWay/"
+            "tech3": "JavaScript",
+            "repoUrl": "https://github.com/Ka1quee/NetflixClone",
+            "projectUrl": "https://netflix-clone-coral-seven.vercel.app/"
         },
         {
             "title": "Sistema Nutrição",
@@ -148,6 +121,42 @@
             "tech3": "Java Script",
             "repoUrl": "https://github.com/Ka1quee/Mochila-de-Viagem-LocalStorage",
             "projectUrl": "https://ka1quee.github.io/Mochila-de-Viagem-LocalStorage/"
+        },
+        {
+            "title": "Número secreto",
+            "date": "19 de Janeiro de 2023",
+            "description": "Um projeto bem simples que gera um número aleatório e faz com que o usuário precise falar utilizando microfone até chegar no número correto.",
+            "videoUrl": "/videos/Numerosecreto.mp4",
+            "tech1": "HTML",
+            "tech2": "CSS",
+            "tech3": "Java Script",
+            "projectImg": "https://i.imgur.com/YTYUUZt.png",
+            "repoUrl": "https://github.com/Ka1quee/jogo-numero-secreto",
+            "projectUrl": "https://jogo-numero-secreto-ruddy.vercel.app/"
+        },
+        {
+            "title": "Teclado Musical",
+            "date": "06 de Fevereiro de 2023",
+            "description": "Se trata de um teclado musical bem simples que pode ser tocado com o cursor do mouse. Foi um projeto muito bom pra recapitular alguns conceitos básicos do HTML e principalmente do CSS e JavaScript. Espero que gostem!",
+            "videoUrl": "/videos/Tecladomusical.mp4",
+            "projectImg": "https://i.imgur.com/bbEkdWo.png",
+            "tech1": "HTML",
+            "tech2": "CSS",
+            "tech3": "Java Script",
+            "repoUrl": "https://github.com/Ka1quee/Teclado-Musical",
+            "projectUrl": "https://ka1quee.github.io/Teclado-Musical/"
+        },
+        {
+            "title": "FreeWay",
+            "date": "12 de Dezembro de 2022",
+            "description": "Esse pequeno projeto se trata de um jogo completamente baseado no FreeWay lançado lá nos anos 80, tem uma lógica bem simples então foi bem rápido pra fazer.",
+            "videoUrl": "/videos/freeWay.mp4",
+            "projectImg": "https://i.imgur.com/Axl7iGi.png",
+            "tech1": "HTML",
+            "tech2": "CSS",
+            "tech3": "Java Script",
+            "repoUrl": "https://github.com/Ka1quee/FreeWay",
+            "projectUrl": "https://ka1quee.github.io/FreeWay/"
         }
     ]
 }

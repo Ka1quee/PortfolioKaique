@@ -26,7 +26,7 @@ export default function Header() {
 
                 <nav className="nav-link">
                     <ul className='nav-list'>
-                        <li className='nav-item'><a href="#hero">Ínicio</a></li>
+                        <li className='nav-item'><a href="#hero">Início</a></li>
                         <li className='nav-item'><a href="#about">Sobre</a></li>
                         <li className='nav-item'><a href="#skills">Habilidades</a></li>
                         <li className='nav-item'><a href="#projects">Projetos</a></li>
@@ -41,7 +41,7 @@ export default function Header() {
 
                 <nav className='nav-mobile'>
                     <ul className='nav-list-mobile'>
-                        <li className='nav-item'><a href="#hero">Ínicio</a></li>
+                        <a href="#hero"><li className='nav-item'><a>Início</a></li></a>
                         <li className='nav-item'><a href="#about">Sobre</a></li>
                         <li className='nav-item'><a href="#skills">Habilidades</a></li>
                         <li className='nav-item'><a href="#projects">Projetos</a></li>
